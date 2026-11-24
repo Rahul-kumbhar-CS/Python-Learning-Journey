@@ -4,7 +4,7 @@ my_list=[1,4,5,"apple",3.14]
 print(my_list)     #output: [1, 4, 5, 'apple', 3.14]
 print(my_list[0])  #output: 1
 print(my_list[4])  #List indexing starts from 0, so this will output: 3.14
-print(my_list[-2])  #Negative indexing starts from the end of the list, so this will output: 3.14
+print(my_list[-2])  #Negative indexing starts from the end of the list, so this will output: apple
 print(my_list[0:4])  #List slicing, this will output: [1, 4, 5, 'apple']
 print(my_list[1:])  #This will output: [4, 5, 'apple', 3.14]
 print(my_list)
