@@ -23,7 +23,7 @@ else:
 
 #3:
 a="gadag"
-copy_a= a[::-1]
+copy_a= a[0:5]
 if(a==copy_a):
     print("\nThe string is palindrome")
 else:
