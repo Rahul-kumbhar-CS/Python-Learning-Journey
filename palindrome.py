@@ -20,3 +20,11 @@ if(list2==copy_list2):
     print("The list contains palindrome elements.")
 else:
     print("The list does not contain palindrome elements.")
+
+#3:
+a="gadag"
+copy_a= a[::-1]
+if(a==copy_a):
+    print("\nThe string is palindrome")
+else:
+    print("\nThe string is not palindrome")
